@@ -143,6 +143,13 @@ border: 1px solid #808080;
  
 }
 
+.input-form:hover{
+  border: 1px solid #000;
+}
+.input-form:focus{
+  border: 1px solid #4e75ff;
+}
+
 .button-form{
   margin-left: 8px;
   border: none;
@@ -157,4 +164,8 @@ border: 1px solid #808080;
       line-height: 1.5;
       letter-spacing: 0.04em;
       color: #fff;
+}
+
+.button-form:hover{
+  background: #6c8cff;
 }
