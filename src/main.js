@@ -1,4 +1,3 @@
-// js/main.js
 import { getImagesByQuery } from './js/pixabay-api';
 import { createGallery, clearGallery, showLoader, hideLoader } from './js/render-functions';
 import iziToast from 'izitoast';
@@ -45,10 +44,3 @@ form.addEventListener('submit', async e => {
         hideLoader();
     }
 });
-
-const loaderWrapper = document.querySelector('.loader-wrapper');
-
-
-
-
-
